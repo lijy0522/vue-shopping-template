@@ -1,3 +1,6 @@
+/*
+ * @Author: lijy
+ */
 module.exports = {
     // 关闭 eslint
     lintOnSave: false,
@@ -5,7 +8,7 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                target: 'http://39.98.123.211',
+                target: 'http://gmall-h5-api.atguigu.cn',
                 // pathRewrite: { "^/api": "" },
             }
         }
